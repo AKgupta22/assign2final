@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+
+.navbar ul {
+    display: inherit;
+    width: 85%;
+    margin: auto;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: #efe0e0;
+    margin: 19px 2px;
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-block;
+    width: 6.1%;
+}
+
+.container {
+    width: 84%;
+    margin: 61px auto;
+
+}
+
+.container h4 {
+    font-size: 40px;
+    color: #283342;
+    font-weight: 400;
+
+}
+
+.container span {
+    font-size: 26px;
+    color: #7c7171;
+    font-weight: 500;
+
+}
+
+.boxes-container {
+    width: fit-content;
+
+}
+
+.box {
+    display: inline-block;
+    width: 32%;
+    margin: 22px 4px;
+    margin-bottom: 14px;
+}
+
+.image {
+    height: 400px;
+    width: 700px;
+    background-color: #CCCCCC;
+    border: 2px outset transparent;
+}
+
+.title {
+    color: #71B2E2;
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.des {
+    color: #4a5564;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.boxes-container img {
+    width: 470px;
+    height: 255px;
+
+}
+
+.footer {
+    height: 60px;
+    width: 84%;
+    margin: auto;
+}
+
+.footer .text {
+    color: #283342;
+}
+
+#layout {
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+hr {
+    margin-top: 5px;
+    width: 96.5%;
+    border: none;
+    height: 1px;
+    background-color: #f3f0f0;
+}
+
+/* Media Query */
+@media (max-width:1710px) {
+    .boxes-container img {
+        width: 395px;
+        height: 240px;
+    }
+
+    .navbar ul li {
+        margin: 18px 2px;
+        font-size: 17px;
+        width: 6.6%;
+    }
+
+    #layout {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:1532px) {
+    .boxes-container img {
+        width: 405px;
+        height: 220px;
+    }
+
+    .navbar ul li {
+        width: 8.3%;
+    }
+}
+
+@media (max-width:1491px) {
+    .boxes-container img {
+        width: 382px;
+        height: 220px;
+    }
+}
+
+@media (max-width:1420px) {
+    .boxes-container img {
+        width: 370px;
+        height: 210px;
+    }
+}
+
+@media (max-width:1397px) {
+    .boxes-container img {
+        width: 345px;
+        height: 220px;
+    }
+}
+
+@media (max-width:1300px) {
+    .boxes-container img {
+        width: 335px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width:1240px) {
+    .boxes-container img {
+        width: 318px;
+        height: 200px;
+    }
+}
+
+@media (max-width:1230px) {
+    .boxes-container img {
+        width: 302px;
+        height: 180px;
+    }
+
+    .box {
+        margin: 14px 9px;
+        width: 31%;
+
+    }
+
+    .navbar ul li {
+        font-size: 20px;
+    }
+
+    .navbar ul li {
+        width: 11%;
+    }
+}
+
+@media (max-width:1102px) {
+    .boxes-container img {
+        width: 237px;
+        height: 287px;
+    }
+
+    .box {
+        margin: 14px 9px;
+        width: 30%;
+
+    }
+}
+
+@media (max-width:1142px) {
+    .boxes-container img {
+        width: 260px;
+        height: 183px;
+    }
+
+    .box {
+        margin: 14px 9px;
+        width: 30%;
+
+    }
+}
+
+@media (max-width:990px) {
+    .boxes-container img {
+        width: 241px;
+        height: 190px;
+    }
+
+    .navbar ul li {
+        width: 11.3%;
+    }
+}
+
+@media (max-width:894px) {
+    .boxes-container img {
+        width: 336px;
+        height: 201px;
+    }
+
+    .box {
+        margin: 10px 10px;
+        width: 46%;
+    }
+
+    .navbar ul li {
+        width: 13.5%;
+    }
+}
+
+@media (max-width:821px) {
+
+    .box {
+        margin: 7px 9px;
+    }
+
+    .title {
+        font-size: 22px;
+        margin-top: 6px;
+    }
+
+    .boxes-container img {
+        width: 291px;
+        height: 173px;
+    }
+
+    .navbar ul li {
+        margin: 19px 5px;
+        width: 13.5%;
+    }
+
+    .container h4 {
+        font-size: 31px;
+    }
+
+    .box {
+        margin: 10px 10px;
+        width: 46%;
+    }
+
+    hr {
+        width: 91.9%;
+    }
+
+    .box {
+        margin: 9px 1px;
+    }
+
+    .container span {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width:751px) {
+
+    .boxes-container img {
+        width: 258px;
+        height: 153px;
+    }
+
+    .navbar ul li {
+        margin: 20px 5px;
+        width: 15%;
+
+    }
+
+}
+
+@media (max-width:698px) {
+
+    .boxes-container img {
+        width: 243px;
+        height: 154px;
+    }
+
+    .navbar ul li {
+        margin: 20px 5px;
+    }
+
+    .navbar ul li {
+        width: 17%;
+    }
+}
+
+@media (max-width:624px) {
+
+    .boxes-container img {
+        width: 220px;
+        height: 131px;
+    }
+
+    .box {
+        width: 44%;
+    }
+
+}
+
+
+@media (max-width:602px) {
+
+    .boxes-container img {
+        width: 206px;
+        height: 145px;
+    }
+
+    .navbar ul li {
+        margin: 15px 6px;
+        font-size: 22px;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .navbar ul li {
+        width: 18%;
+    }
+
+    #layout {
+        font-size: 23px;
+        margin-right: 16px;
+    }
+
+    .navbar ul {
+        width: 89%;
+    }
+
+}
+
+@media (max-width:535px) {
+    .boxes-container img {
+        width: 96%;
+        height: 188px;
+    }
+
+    .navbar ul li {
+        margin: 15px 19px;
+        font-size: 16px;
+    }
+
+    .box {
+        margin: 15px 0px;
+        width: 100%;
+    }
+
+    .container span {
+        font-size: 22px;
+    }
+
+    .container h4 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    hr {
+        width: 95.9%;
+    }
+
+}
+
+@media (max-width:535px) {
+    .navbar ul li {
+        margin: 14px 10px;
+        font-size: 18px;
+    }
+
+    .container span {
+        font-size: 17px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: auto;
+        padding: 7px;
+    }
+
+    #layout {
+        font-size: 18px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width:444px) {
+
+    .navbar ul li {
+        width: 22%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:409px) {
+    .navbar ul li {
+        width: 21%;
+    }
+
+    .navbar ul li {
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    #layout {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 358px) {
+
+    .container h4 {
+        font-size: 25px;
+    }
+
+    .container span {
+        font-size: 14px;
+    }
+
+    .navbar ul li {
+        font-size: 13px;
+        width: 22%;
+    }
+}
+
+@media (max-width: 314px) {
+    .navbar ul li {
+        font-size: 15px;
+        width: 23%;
+    }
+
+    #layout {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 262px) {
+    .navbar ul li {
+        font-size: 11px;
+    }
+
+    #layout {
+        font-size: 13px;
+    }
+}
